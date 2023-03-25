@@ -5,9 +5,9 @@
 
 .section1 {
     background-color: #1F2937;
-    height: 200px;
-    padding-right: 100px;
-    padding-left: 100px;
+    height: 400px;
+    padding-right: 200px;
+    padding-left: 200px;
     padding-top: 20px;
 }
 
@@ -43,5 +43,24 @@ button {
     width: 120px;
     height: 30px;
     border: 0px;
-    
+    border-radius: 8px;
+}
+
+.sub-left {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sub-right {
+    background-color: #6D747D;
+    width: 450px;
+    text-align: center;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
